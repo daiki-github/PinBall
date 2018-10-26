@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 64808232347200052}
   - component: {fileID: 114647418650217956}
   - component: {fileID: 114827794269800950}
+  - component: {fileID: 65876578353761392}
   m_Layer: 0
   m_Name: LargeStarPrefab
   m_TagString: LargeStarTag
@@ -99,6 +100,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: b4a415eb161e94b29ab367a4657b2fbe, type: 3}
+--- !u!65 &65876578353761392
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500375389941142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1795151, y: 0.30428767, z: 1.1278412}
+  m_Center: {x: 0.0015028417, y: 0.000000052154064, z: 0.061148465}
 --- !u!114 &114647418650217956
 MonoBehaviour:
   m_ObjectHideFlags: 1

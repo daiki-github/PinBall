@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 64292334061850110}
   - component: {fileID: 114686434504334218}
   - component: {fileID: 114022972886328596}
+  - component: {fileID: 65514726266250776}
   m_Layer: 0
   m_Name: LargeCloudPrefab
   m_TagString: LargeCloudTag
@@ -99,6 +100,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 24324dba0211d4b0cab8f6b1fb64655f, type: 3}
+--- !u!65 &65514726266250776
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075740307827940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9480395, y: 0.3322175, z: 1.2308156}
+  m_Center: {x: 0.04341209, y: -0.000005863607, z: 0.61096585}
 --- !u!114 &114022972886328596
 MonoBehaviour:
   m_ObjectHideFlags: 1
